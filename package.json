@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:mike-p-blaize/ysl_quicktest_script.git",
   "author": "mike.p <mike.p@blaize.tech>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint-fix":"eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
 }
