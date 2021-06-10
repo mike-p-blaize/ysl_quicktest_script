@@ -16,5 +16,6 @@
     "6": 1620737821,
     "7": 1620651421,
     "8": 1620565021
-  }
+  },
+  "httpProvider": "https://rinkeby.infura.io/v3/fa68dd480dc24d8d9ae6a1142fa2dc69"
 }
