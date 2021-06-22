@@ -1,21 +1,30 @@
 {
-  "addr": {
+  "contracts": {
     "tokens":{
-      "BUSD": "0x72C0fb75DA8DbdC5772D0836710F8AA320Cb3B96",
-      "WBNB": "0xC85313c487B79d2747089245ACE799336c83bBc9"
+      "MockBUSD": "0xfDfe8bBd90171AE7388AF6D19F5ECeEd4edEd502",
+      "MockWBNB": "0x9217228453A9614c91Fbd578cbAA81dCeB02f982"
     },
-    "priceDiscovery": "0xE32A88aAc056507F2E40a261ACd99742c377B6b3"
+    "TimeSet": "0xD8fe4e3196852B3784FAF8BD459f4e41320F0071",
+    "SYSL": "0x"
   },
+  "signature": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "zeroAddress": "0x0000000000000000000000000000000000000000",
   "stages": {
     "0": 1623070622,
-    "1": 1621169821,
-    "2": 1621083421,
-    "3": 1620997021,
-    "4": 1620910621,
-    "5": 1620824221,
-    "6": 1620737821,
-    "7": 1620651421,
-    "8": 1620565021
+    "1": 1621774622,
+    "2": 1621688222,
+    "3": 1621612622,
+    "4": 1621526222,
+    "5": 1621439822,
+    "6": 1621353422,
+    "7": 1621330050,
+    "9": 1620565021
   },
-  "httpProvider": "https://rinkeby.infura.io/v3/fa68dd480dc24d8d9ae6a1142fa2dc69"
+  "httpProvider": "https://rinkeby.infura.io/v3/fa68dd480dc24d8d9ae6a1142fa2dc69",
+  "transaction": {
+    "confirmations": 2,
+    "gasLimit": 3000000,
+    "gasPriceMultiplier": 1.2
+  },
+  "privateKey": "627c7aa393c01d7ece8793fb3c149569f8f16c35a9c1f50601dc1c1c5c92299c"
 }

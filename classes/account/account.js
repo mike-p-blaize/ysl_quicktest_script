@@ -1,18 +1,17 @@
 'use strict';
-
+const config = require('config');
 const Connection = require('../connect/connect');
 
+
 class Account extends Connection {
-  constructor(privateKey) {
+  constructor() {
     super();
-    if (privateKey !== undefined) {
-      this.entity = this.web3.eth.accounts.privateKeyToAccount(privateKey);
-    }
-    this.entity = this.web3.eth.accounts.create();
+    this.account = this.web3.eth.accounts.wallet.add(config.privateKey);
+    this.address = this.web3.eth.accounts.wallet['0'].address;
   }
 
 
 
 }
 
-module.exports = Account;
+module.exports = new Account();
